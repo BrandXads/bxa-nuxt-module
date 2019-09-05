@@ -5,7 +5,7 @@ import extract from './extract.js'
 const AffiliateLinkPlugin = {
   install(Vue, store) {
 
-    store.registerModule('attribution', attribution)
+    store.registerModule('attribution', attribution, { preserveState: true })
 
     // Register components
     Vue.component('affiliate-link', AffiliateLink)
