@@ -1,9 +1,11 @@
+export const state = () => ({
+  attribution: {},
+});
+
 export default {
   namespaced: true,
 
-  state: {
-    attribution: {}
-  },
+  state,
   mutations: {
     UPDATE_ATTRIBUTION (state, data) {
       console.log(state)
