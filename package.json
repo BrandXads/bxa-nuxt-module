@@ -1,0 +1,11 @@
+{
+  "name": "affiliate-links",
+  "version": "1.0.0",
+  "description": "Reads query string params and passes data through links",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "BXA",
+  "license": "ISC"
+}
