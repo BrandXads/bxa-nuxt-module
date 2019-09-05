@@ -1,6 +1,5 @@
 const extract = (query) => {
-  let url = new URL(query)
-  let searchParams = new URLSearchParams(url)
+  let searchParams = new URLSearchParams(query)
 
   // Display the key/value pairs
   for (let pair of searchParams.entries()) {
