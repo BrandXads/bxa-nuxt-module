@@ -7,7 +7,7 @@ export default {
 
   state,
   mutations: {
-    UPDATE_ATTRIBUTION (state, data) {
+    UPDATE_ATTRIBUTION ({state}, data) {
       console.log(state)
       state.attribution[data.key] = data.value
     }
