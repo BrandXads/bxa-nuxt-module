@@ -1,13 +1,9 @@
-export const state = () => ({
-  attribution: {},
-});
-
 export default {
   namespaced: true,
 
-  state,
+  state: {},
   mutations: {
-    UPDATE_ATTRIBUTION ({state}, data) {
+    UPDATE_ATTRIBUTION (state, data) {
       console.log(state)
       state.attribution[data.key] = data.value
     }
