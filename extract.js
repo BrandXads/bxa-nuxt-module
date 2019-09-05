@@ -1,4 +1,4 @@
-const extract = (store) => {
+const extract = () => {
   let url = new URL(window.location.search)
   let searchParams = new URLSearchParams(url)
 
@@ -6,7 +6,7 @@ const extract = (store) => {
   for (let pair of searchParams.entries()) {
     localStorage.setItem(pair[0], pair[1])
   }
-  store.dispatch('attribution/updateAttribution')
+  this.$store.dispatch('attribution/updateAttribution')
 }
 
 export default extract
