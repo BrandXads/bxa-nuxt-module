@@ -3,7 +3,7 @@ export default {
 
   state: {},
   mutations: {
-    UPDATE_ATTRIBUTION: (state, data) => {
+    UPDATE_ATTRIBUTION (state, data) {
       state[data.key] = data.value
     }
   },
