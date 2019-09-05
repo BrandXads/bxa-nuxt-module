@@ -1,11 +1,12 @@
 export default {
   namespaced: true,
 
-  state: () => ({
+  state: {
     attribution: {}
-  }),
+  },
   mutations: {
     UPDATE_ATTRIBUTION (state, data) {
+      console.log(state)
       state.attribution[data.key] = data.value
     }
   },
