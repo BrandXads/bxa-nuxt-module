@@ -6,7 +6,6 @@ const extract = () => {
   for (let pair of searchParams.entries()) {
     localStorage.setItem(pair[0], pair[1])
   }
-  this.$store.dispatch('attribution/updateAttribution')
 }
 
 export default extract
