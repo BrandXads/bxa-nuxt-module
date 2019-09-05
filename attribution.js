@@ -12,7 +12,7 @@ export default {
   actions: {
     updateAttribution: ({ commit }) => {
       for (let [key, value] of Object.entries(localStorage)) {
-        commit(UPDATE_ATTRIBUTION, { key, value })
+        commit('UPDATE_ATTRIBUTION', { key, value })
       }
     }
   },
