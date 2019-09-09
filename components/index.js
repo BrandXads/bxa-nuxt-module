@@ -1,8 +1,8 @@
 // components/index.js
 import Vue from 'vue'
-import components from './lib/index.js'
+import AffiliateLink from './lib/AffiliateLink.vue'
+import LinkWrap from './lib/LinkWrap.vue'
 
 // loop through components and register them
-for (const name in components) {
-  Vue.component(name)
-}
+Vue.component('affiliate-link', LinkWrap)
+Vue.component('aff-link', AffiliateLink)

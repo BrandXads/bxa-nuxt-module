@@ -4,7 +4,7 @@
   </client-only>
 </template>
 <script>
-import AffiliateLink from './AffiliateLink'
+
 export default {
   props: {
     baseUrl: {
@@ -25,9 +25,6 @@ export default {
       required: false,
       default: () => {return new Object}
     }
-  },
-  components: {
-    'aff-link': AffiliateLink
   }
 }
 </script>
