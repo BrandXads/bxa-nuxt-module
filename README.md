@@ -23,7 +23,12 @@ this.$extractQuery(window.location.search)
 ```
 
 ### Place affiliate link
-The module automatically registers the `<affiliate-link>` component. The following props are available:
+The module automatically registers the `<affiliate-link>` component. Usage:
+```js
+<affiliate-link baseUrl="http://google.com">Google</affiliate-link>
+```
+
+The following props are available:
 ```js
 props: {
     // Link url, including any existing query params
