@@ -19,7 +19,7 @@ modules: [
 ### Extract query parameters and store in localStorage / populate Vuex
 Place the following code inside the `mounted()` hook of any page where you'd like to extract query parameters from the url:
 ```
-this.$extract(window.location.search)
+this.$extractQuery()
 ```
 
 ### Place affiliate link

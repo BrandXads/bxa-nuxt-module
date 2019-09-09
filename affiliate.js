@@ -26,7 +26,7 @@ const extract = store => {
 
 export default async function({ store }) {
   // Add extraction method to vue instance
-  Vue.prototype.$extract = extract(store)
+  Vue.prototype.$extractQuery = extract(store)
 
   // Register attribution module
   store.registerModule(
