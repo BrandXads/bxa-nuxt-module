@@ -50,6 +50,7 @@ props: {
       required: false,
       default: () => {return new Object}
     }
+}
 ```
 
 ### Attribution
