@@ -1,11 +1,19 @@
 {
-  "name": "affiliate-links",
+  "name": "bxa-nuxt",
   "version": "1.0.0",
-  "description": "Reads query string params and passes data through links",
-  "main": "index.js",
+  "description": "BXA custom nuxt stuff",
+  "main": "module.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "BXA",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandXads/vue-affiliate-links.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandXads/vue-affiliate-links/issues"
+  },
+  "homepage": "https://github.com/BrandXads/vue-affiliate-links#readme"
 }
