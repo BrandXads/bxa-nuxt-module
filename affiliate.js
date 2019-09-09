@@ -1,7 +1,4 @@
 import Vue from "vue"
-import LinkWrap from "./LinkWrap"
-
-Vue.component("affiliate-link", LinkWrap)
 
 // Extracts query params and stores to localStorage
 const extract = store => query => {
