@@ -1,5 +1,5 @@
 import Vue from "vue"
-import LinkWrap from "./LinkWrap"
+import LinkWrap from "@/plugins/LinkWrap"
 
 Vue.component("affiliate-link", LinkWrap)
 
