@@ -1,5 +1,5 @@
 {
-  "name": "bxa-nuxt",
+  "name": "bxa-nuxt-module",
   "version": "1.0.0",
   "description": "BXA custom nuxt stuff",
   "main": "module.js",
