@@ -3,7 +3,7 @@ This module can be included into a Nuxt project to bootstrap commonly used compo
 
 ## Installation
 To install in an existing Nuxt project:
-``
+```
 yarn add brandxads/bxa-nuxt-module
 ```
 
