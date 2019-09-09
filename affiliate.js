@@ -1,9 +1,9 @@
 import Vue from "vue"
 
 // Extracts query params and stores to localStorage
-const extract = store => query => {
+const extract = store => {
   // Get query string from current URL
-  let searchParams = new URLSearchParams(query)
+  let searchParams = new URLSearchParams(window.location.search)
 
   // Put query parameters into local storage
   for (let pair of searchParams.entries()) {

@@ -45,4 +45,7 @@ props: {
       required: false,
       default: () => {return new Object}
     }
-``` 
+```
+
+### Attribution
+All params are made available in the root state of the `attribution` Vuex module. Access via `this.$store.state.attribution`
