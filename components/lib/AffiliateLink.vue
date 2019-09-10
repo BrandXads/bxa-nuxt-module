@@ -1,7 +1,9 @@
 <template>
-  <a :href="finalUrl">
-    <slot></slot>
-  </a>
+  <client-only>
+    <a :href="finalUrl">
+      <slot></slot>
+    </a>
+  </client-only>
 </template>
 <script>
 export default {
