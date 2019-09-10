@@ -5,7 +5,6 @@
 </template>
 <script>
 export default {
-  inheritAttrs: false,
   props: {
     baseUrl: {
       type: String,
