@@ -7,8 +7,7 @@ export default function nuxtBootstrapVue (moduleOptions) {
     mode: 'client'
   })
   this.addPlugin({
-    src: path.resolve(__dirname, 'affiliate.js'),
-    mode: 'client'
+    src: path.resolve(__dirname, 'affiliate.js')
   }
   )
 }
