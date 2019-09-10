@@ -4,8 +4,12 @@ export default function nuxtBootstrapVue (moduleOptions) {
   // Register `plugin.js` template
   this.addPlugin({
     src: path.resolve(__dirname, 'components/index.js'),
-    ssr: false
+    mode: 'client'
   })
-  this.addPlugin(path.resolve(__dirname, 'affiliate.js'))
+  this.addPlugin({
+    src: path.resolve(__dirname, 'affiliate.js'),
+    mode: 'client'
+  }
+  )
 }
 module.exports.meta = require('./package.json')
